@@ -24,6 +24,19 @@
 - Start MATLAB GUI, set up a C/C++ compiler using the command `mex -setup`. (Refer to [here](https://www.mathworks.com/help/matlab/matlab_external/changing-default-compiler.html) for more details.)
   
 - Run `configure.m` in MATLAB GUI.
+  > Note: users of Macbook with Apple silicon (an M-series chip) may encounter the following issue:
+  > 
+  > `Undefined symbols for architecture arm64`
+  >
+  > This compiling issue can be solved by adding a new flag `-ld_classic` in the compiling command.
+  > 
+  > Namely, please change Line 62 of `breach/Online/m_src/compile_stl_mex.m` from:
+  > 
+  > `cxxflags = '-silent -DYYDEBUG=1 CXXFLAGS=''$CXXFLAGS -Wno-write-strings -std=gnu++11 -std=gnu++0x -Wno-deprecated-register''';`
+  > 
+  > to
+  > 
+  > `cxxflags = '-ld_classic -silent -DYYDEBUG=1 CXXFLAGS=''$CXXFLAGS -Wno-write-strings -std=gnu++11 -std=gnu++0x -Wno-deprecated-register''';`
 
 ### Usage
 
