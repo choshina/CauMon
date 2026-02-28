@@ -83,3 +83,7 @@
   
   <img src="experiment/result.png" alt="result" width="600"/>
 
+### Reproduction of the experimental result
+
+- Figure 2 in the paper can be reproduce by running the script `Figure2a.m`.
+
