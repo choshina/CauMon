@@ -112,7 +112,7 @@ Usage
 
 - Run the script. A figure will be displayed and stored.
 
-  .. image:: experiment/result.png
+  .. image:: fig/result.png
      :alt: result
      :width: 500px
 
