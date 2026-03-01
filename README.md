@@ -81,5 +81,9 @@
     ```
 - Run the script. A figure will be displayed and stored.
   
-  <img src="experiment/result.png" alt="result" width="600"/>
+  <img src="experiment/result.png" alt="result" width="500"/>
+
+### Reproduction of the experimental result
+
+- Figure 2 in the paper can be reproduce by running the script `Figure2a.m`.
 
