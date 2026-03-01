@@ -87,3 +87,32 @@
 
 - Figure 2 in the paper can be reproduce by running the script `Figure2a.m`.
 
+### Structure of the repository
+```
+├── Figure2a.m                # the script for reproducing Figure 2 in the paper
+├── LICENSE
+├── Makefile                  # installation of CauMon
+├── README.md
+├── breach                    # dependency code from Breach
+├── configure.m               # building commands
+├── docs                      # files related to readthedocs
+│   ├── Doxyfile
+│   ├── Makefile
+│   ├── build
+│   ├── doxygen
+│   ├── make.bat
+│   ├── requirements.txt
+│   └── source
+├── experiment                # scripts and data for experimental results
+│   ├── Figure2a.m
+│   ├── Figure2b.m
+│   ├── data
+│   ├── result.png
+│   ├── test.m
+│   └── visualize.m
+├── results
+└── src                       # source code 
+    ├── compile               # compiling commands
+    ├── cpp                   # source files
+    └── include               # head files
+```
