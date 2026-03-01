@@ -1,13 +1,6 @@
 CauMon: A Tool for Online Monitoring against Signal Temporal Logic
 ==================================================================
 
-Run in your local machine
-=========================
-
-Documentation
--------------
-
-`Readthedocs Website <https://caumon.readthedocs.io/en/latest/>`_
 
 System requirement
 ------------------
